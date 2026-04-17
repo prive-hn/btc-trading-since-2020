@@ -59,6 +59,11 @@ Open intelligence instead of selective narrative.
 - BitMEX API Explorer / Swagger JSON: https://www.bitmex.com/api/explorer/swagger.json
 - `XBT` is another ticker used by some exchanges for Bitcoin (`BTC`). If you are unfamiliar with the term, see: https://coinmarketcap.com/academy/glossary/xbt
 
+## Live current-state companion
+
+For a real-time dashboard companion to this archive, see: **https://wsnb.online**
+This repository is the long-horizon historical layer; `wsnb.online` is the live current-state layer.
+
 ## How to read the files
 
 - `tradeHistory` is the main balance-affecting execution ledger.

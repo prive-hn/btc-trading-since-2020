@@ -59,6 +59,11 @@ Open intelligence，而不是选择性叙事。
 - BitMEX API Explorer / Swagger JSON：https://www.bitmex.com/api/explorer/swagger.json
 - `XBT` 是一些交易所对 Bitcoin（`BTC`）使用的另一种 ticker。若你不熟悉这个叫法，可参考：https://coinmarketcap.com/academy/glossary/xbt
 
+## 账号实时状态看板补充
+
+如果你想看这个账户的实时状态看板补充，可访问：**https://wsnb.online**
+这个仓库负责长期历史层；`wsnb.online` 则负责实时状态层。
+
 ## 这些文件应该怎么理解
 
 - `tradeHistory`：主要的、会影响余额的成交执行账本。
