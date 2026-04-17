@@ -2,7 +2,9 @@
 
 >[English](README.md) | [中文](README.zh-CN.md)
 
-Public, continuously updated BitMEX trading context from a single long-duration account that began on 2020-05-01.
+In the AI era, high-quality context becomes the most scarce asset.
+This repository is an open-intelligence experiment: a public, inspectable, and continuously extensible mirror of a real trading account. It spans nearly six years, 43k+ orders, and 173k+ execution rows.
+The internet likely has no comparable public repository that continuously exposes the full multi-year secondary-market history of a predominantly BTC-trading account at this level of detail.
 
 ![Cumulative performance](cumulative-performance.png)
 
@@ -10,9 +12,9 @@ Public, continuously updated BitMEX trading context from a single long-duration 
 
 Most public trading content is narrative without ledger truth.
 
-This repository does the opposite: it publishes a long-horizon, continuously updated historical mirror of one real BitMEX account so other people can inspect the actual execution ledger, wallet ledger, terminal snapshots, and reconstruction anchors instead of relying on screenshots, selective anecdotes, or marketing summaries.
+This repository does the opposite: it publishes a long-horizon, continuously updated historical mirror of one real trading account so other people can inspect the actual execution ledger, wallet ledger, terminal snapshots, and reconstruction anchors instead of relying on screenshots, selective anecdotes, or marketing summaries.
 
-The core idea is simple: high-quality context compounds. If a public trading history is durable, inspectable, and continuously updated, it becomes more valuable than one-off commentary.
+Open intelligence instead of selective narrative.
 
 ## Dataset window
 
@@ -39,15 +41,23 @@ The core idea is simple: high-quality context compounds. If a public trading his
 
 ## High-level facts from this build
 
-- `api-v1-execution-tradeHistory.csv`: **173,058** rows
 - `api-v1-order.csv`: **43,214** rows
+- `api-v1-execution-tradeHistory.csv`: **173,058** rows
 - `api-v1-user-walletHistory.csv`: **17,099** rows
-- Largest single trading symbol by execution count: **XBTUSD** with **104,504** rows (60.39% of `tradeHistory` rows)
+- Time span: **2020-05-01 → 2026-04-17**
+- By executed trade notional, BTC-related symbols account for **~84.0%** of the full archive
+- The account becomes much more BTC-concentrated in later years: **~93.7%** from 2022 onward, **~96.1%** from 2023 onward, and **~99.0%** from 2024 onward
 - Chart baseline: **1.83953943 XBT** at **2020-05-01T14:39:40.387Z**
 - Total completed deposits in XBT ledger: **1.77199051 XBT**
 - Total completed withdrawals in XBT ledger: **66.00180000 XBT**
 - Latest adjusted wallet-equivalent wealth (XBT+USDt scope): **96.38685218 XBT** (**52.397274x** vs baseline)
 - Latest adjusted marked wealth (XBT+USDt scope): **95.75314961 XBT** (**52.052785x** vs baseline)
+
+## Reference docs and terminology
+
+- BitMEX API Explorer docs: https://docs.bitmex.com/api-explorer/bitmex-api.html
+- BitMEX API Explorer / Swagger JSON: https://www.bitmex.com/api/explorer/swagger.json
+- `XBT` is another ticker used by some exchanges for Bitcoin (`BTC`). If you are unfamiliar with the term, see: https://coinmarketcap.com/academy/glossary/xbt
 
 ## How to read the files
 
