@@ -8,6 +8,10 @@ The internet likely has no comparable public repository that continuously expose
 
 ![Cumulative performance](cumulative-performance.png?v=dc2dc2d11acf)
 
+BitMEX recognized Paul Wei (`@coolish`) as one of its 11th anniversary Legends and, on its public Hall of Legends page, highlighted a `70x` Bitcoin-trading return over 3 years ([source](https://www.bitmex.com/hall-of-legends)). But the deeper value of this repository is not a single headline number. It is a public, timestamped archive of long-term BTC trading through multiple market cycles — including strong calls, reversals, drawdowns, and recoveries — so readers can inspect the record in sequence rather than rely on retrospective storytelling.
+
+Any long-term result includes timing and luck. What makes this archive unusual is that much of the trail was public before the outcome was known. That makes it a more durable record of decision-making under uncertainty, not just a curated victory lap.
+
 ## Why this exists
 
 Most public trading content is narrative without ledger truth.
