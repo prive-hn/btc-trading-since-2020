@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T21:49:10Z",
+  "generated_at": "2026-04-18T08:09:06Z",
   "root": "/Users/jarvis/.hermes/analysis_outputs/btc-trading-since-2020/public-repo-root",
   "spec_version": "1.0",
   "privacy_policy_version": "0.4",
@@ -483,8 +483,8 @@
       "file": "cumulative-performance.png",
       "kind": "derived_asset",
       "role": "readme performance figure derived from derived-equity-curve.csv",
-      "sha256": "d96e23e6bdb4068429b4a783281176efcfb7d3a07a40b309297a2d676749d1a9",
-      "size_bytes": 139656
+      "sha256": "dc2dc2d11acf6514197efa081b6030f7ae7585ad937da153d3f0c6583b74c73a",
+      "size_bytes": 138360
     },
     {
       "file": "README.md",
